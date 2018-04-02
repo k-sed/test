@@ -20,5 +20,5 @@ func main() {
 		})
 	}
 
-	router.Run(":6060")
+	router.Run(":6066")
 }
