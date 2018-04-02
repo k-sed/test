@@ -10,6 +10,7 @@ func main() {
 
 	router := gin.New()
 	router.Use(
+		gin.Logger(),
 		gin.Recovery(),
 	)
 
